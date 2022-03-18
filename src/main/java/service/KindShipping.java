@@ -11,7 +11,8 @@ public enum KindShipping {
             return new Normal();
         }
     },
-    SEDEX {
+
+    EXPRESS {
         @Override
         public Shipping obtainShipping() {
             return new Express();

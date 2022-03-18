@@ -1,6 +1,5 @@
 package service.frete;
 
-
 import service.Shipping;
 
 public class Express implements Shipping {

@@ -11,7 +11,7 @@ public class Exemplo {
 		try (Scanner input = new Scanner(System.in)) {
 			System.out.print("Informe a distância: ");
 			int distance = input.nextInt();
-			System.out.print("Qual o tipo de frete (1) Normal, (2) Sedex: ");
+			System.out.print("Qual o tipo de frete (1) Normal, (2) Expresso: ");
 			int optionShipping = input.nextInt();
 			KindShipping typeShipping = KindShipping.values()[optionShipping - 1];
 
